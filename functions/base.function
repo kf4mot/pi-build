@@ -171,7 +171,7 @@ HAMLIB() {
     tar -xzf hamlib-${NEWRIG}.tar.gz
     rm hamlib-${NEWRIG}.tar.gz
     cd hamlib-${NEWRIG} || return
-    ./configure
+    ./configure --with-python-binding PYTHON=$(which python3)
     make
     sudo make install
     sudo ldconfig
