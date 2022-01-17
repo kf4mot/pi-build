@@ -25,7 +25,7 @@ Use a USB flash application such as Balena Etcher to copy the iso file to a USB 
 
 Power up your Raspberry Pi, login, and in your home directory, run the following command
 
-     git clone https://github.com/km4ack/pi-build.git \
+     git clone https://github.com/kf4mot/pi-build.git \
       $HOME/pi-build && bash $HOME/pi-build/build-a-pi
      
 # Video
